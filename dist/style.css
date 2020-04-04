@@ -1,0 +1,32 @@
+.container{
+  background-color: #202020;    
+}
+
+.site-logo{
+  width: 160px;
+}
+.navbar{
+  display: flex;
+}
+
+.row{
+  width: 100%;
+  background-color: #181818;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.column{
+  width: 24%;
+  background-color: green;
+  border: 2px solid;
+  position: relative;
+ 
+}
+
+.card-img{
+  width: 100%;
+    
+}
