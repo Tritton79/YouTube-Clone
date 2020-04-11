@@ -1,51 +1,176 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Newbie Tube 2</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<div class="container" >
-  <div class="navbar" >
+  <!-- partial:index.partial.html -->
+  <div class="container">
+    <div class="navbar">
       <img class="site-logo" src="https://i.postimg.cc/7Ygym7JQ/youtubedarklogo.png" />
-    <div class="search-box" >
-      <input class ="search-text" type="text" placeholder="Search" >
-      <a class="search-btn" href="#">
-        <i class="fas fa-search"></i>
+      <div class="search-box">
+        <input class="search-text" type="text" placeholder="Search">
+        <button id="seach-icon">
+          <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </button>
+      </div>
+      <div class="navbar-end-btns">
+        
+          <a class="create-video-btn" href="#">
+            <i class="fas fa-video"></i>
+          </a>
+        
+        
+        <a class="create-video-btn" href="#">
+          <i class="fab fa-buromobelexperte"></i>
+        </a>
+        <a class="create-video-btn" href="#">
+          <i class="fas fa-bell"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="guide-section">
+    <div>
+      <a class="create-video-btn" href="#">
+        <i class="fas fa-home"></i>
       </a>
-  </div>   
-</div>
+    </div>
 
-<div class="row">
-    <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
-      <div>Title</div>
-      <div>Author</div>
-      <div>2:00</div>
-  </div>
-    <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
-  </div>
-    <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
-  </div>
-    <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
-  </div>  
-</div>
+    <div>
+      <a class="create-video-btn" href="#">
+        <i class="fab fa-hotjar"></i>
+      </a>
+    </div>
+    
+    <div>
+      <a class="create-video-btn" href="#">
+        <i class="fas fa-outdent"></i>
+      </a>
+    </div>
+    
+    <div>
+      <a class="create-video-btn" href="#">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
 
-<div class="row">
-    <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
-  </div>
-    <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
-  </div>
-    <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
-  </div>
-    <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
-  </div>  
-</div>
+    <div>
+      <a class="create-video-btn" href="#">
+        <i class="fas fa-book-open"></i>
+      </a>
+    </div>
 
-<!-- partial -->
-  
+    <div>
+      <a class="create-video-btn" href="#">
+        <i class="fas fa-history"></i>
+      </a>
+    </div>
+
+    <div>
+      <a class="create-video-btn" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    </div>
+
+    <divd>
+      <a class="create-video-btn" href="#">
+        <i class="fas fa-video"></i>
+      </a>
+    </divd>
+  </div>
+
+  <!-- Image Cards and details -->
+  <div id="row-master">
+    <div class="row">
+      <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
+        <div class="colum-details">
+          <div>
+            <h3>Barack Obama's final speech as president</h3>
+          </div>
+          <div class="tittle">Guardian News</div>
+          <div class="views">3M views</div>
+        </div>
+      </div>
+      <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
+        <div class="colum-details">
+          <div>
+            <h3>Barack Obama's final speech as president</h3>
+          </div>
+          <div class="tittle">Guardian News</div>
+          <div class="views">3M views</div>
+        </div>
+      </div>
+      <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
+        <div class="colum-details">
+          <div>
+            <h3>Barack Obama's final speech as president</h3>
+          </div>
+          <div class="tittle">Guardian News</div>
+          <div class="views">3M views</div>
+        </div>
+      </div>
+      <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
+        <div class="colum-details">
+          <div>
+            <h3>Barack Obama's final speech as president</h3>
+          </div>
+          <div class="tittle">Guardian News</div>
+          <div class="views">3M views</div>
+        </div>
+      </div>
+      <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
+        <div class="colum-details">
+          <div>
+            <h3>Barack Obama's final speech as president</h3>
+          </div>
+          <div class="tittle">Guardian News</div>
+          <div class="views">3M views</div>
+        </div>
+      </div>
+      <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
+        <div class="colum-details">
+          <div>
+            <h3>Barack Obama's final speech as president</h3>
+          </div>
+          <div class="tittle">Guardian News</div>
+          <div class="views">3M views</div>
+        </div>
+      </div>
+      <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
+        <div class="colum-details">
+          <div>
+            <h3>Barack Obama's final speech as president</h3>
+          </div>
+          <div class="tittle">Guardian News</div>
+          <div class="views">3M views</div>
+        </div>
+      </div>
+      <div class="column"><img class="card-img" src="https://i.postimg.cc/DZ4p98ww/obama-covid19.png" />
+        <div class="colum-details">
+          <div>
+            <h3>Barack Obama's final speech as president</h3>
+          </div>
+          <div class="tittle">Guardian News</div>
+          <div class="views">3M views</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!-- partial -->
+
 </body>
+
 </html>
